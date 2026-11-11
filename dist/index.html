@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0a0b" />
+    <meta name="description" content="Treine Muay Thai e Jiu-Jitsu na Niterói Fight House. Escolha sua modalidade e agende sua aula." />
+    <title>Niterói Fight House — Treino que transforma</title>
+    <link rel="preload" as="image" href="assets/muay-thai-feminino.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="quotes.css" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" crossorigin="anonymous"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+    <div class="topline"><span class="status-dot"></span> NITERÓI · DESDE 2016 <span class="topline-note">Treino para todos os níveis</span></div>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Niterói Fight House, início">
+        <span class="brand-mark" aria-hidden="true"><span>NFH</span><b>FIGHT HOUSE</b></span>
+        <span class="brand-name">NITERÓI<br /><strong>FIGHT HOUSE</strong></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span class="sr-only">Abrir menu</span><i></i><i></i></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Navegação principal">
+        <a href="#modalidades">Modalidades</a>
+        <a href="#agenda">Horários</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#planos">Planos</a>
+      </nav>
+      <a class="button button-small button-red header-cta" href="#agenda" data-booking-link>Agendar aula <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-image" role="img" aria-label="Alunas da equipe treinam juntas na academia"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> ARTES MARCIAIS · NITERÓI, RJ</p>
+          <h1 id="hero-title">FORÇA SE<br />CONSTRÓI <span>JUNTO.</span></h1>
+          <p class="hero-copy">Uma academia, três caminhos. Encontre o treino que combina com você e dê o primeiro passo no seu ritmo.</p>
+          <div class="hero-actions">
+            <a class="button button-red" href="#modalidades">Escolher modalidade <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#agenda">Ver próximos horários <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof"><span class="proof-emblem">10<small>anos</small></span><span>Comunidade que treina<br /><strong>lado a lado desde 2016</strong></span></div>
+        </div>
+        <div class="hero-side-label" aria-hidden="true">NITERÓI FIGHT HOUSE <span>·</span> TREINO QUE TRANSFORMA</div>
+        <div class="hero-bottom-note"><span class="scroll-mark"></span> ROLE PARA CONHECER</div>
+      </section>
+
+      <section class="intro section-wrap" aria-label="Sobre a academia">
+        <p class="section-kicker">MAIS DO QUE TREINO</p>
+        <div class="intro-grid">
+          <h2>Seu espaço.<br />Seu ritmo.<br /><em>Sua evolução.</em></h2>
+          <div class="intro-copy"><p>Aprender uma arte marcial é descobrir do que você é capaz. Na Fight House, cada modalidade tem sua própria turma, seus objetivos e uma equipe ao seu lado.</p><a class="underlined-link" href="#modalidades">Conheça os caminhos <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="programs section-wrap" id="modalidades" aria-labelledby="programs-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">ENCONTRE SUA LUTA</p><h2 id="programs-title">Três modalidades.<br /><em>Um só time.</em></h2></div>
+          <p>Escolha uma turma para conhecer o treino, a equipe e os horários daquela modalidade.</p>
+        </div>
+        <div class="program-grid">
+          <article class="program-card program-feminino" data-program="feminino">
+            <div class="program-visual visual-feminino"><img src="assets/muay-thai-feminino.png" alt="Turma feminina de Muay Thai reunida após o treino" loading="lazy" /><span class="visual-index">01 / 03</span><span class="round-icon" aria-hidden="true">✳</span></div>
+            <div class="program-info"><p class="program-label">MUAY THAI · TURMA EXCLUSIVA</p><h3>Muay Thai<br /><em>Feminino</em></h3><p>Um ambiente de apoio para desenvolver técnica, confiança e condicionamento, golpe a golpe.</p><a class="card-link" href="#modalidade-feminino" data-select-program="feminino">Explorar a turma <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="program-card program-muay" data-program="muay">
+            <div class="program-visual visual-muay"><img src="assets/fight-house-team.png" alt="Alunos da Niterói Fight House reunidos no espaço de treino" loading="lazy" /><span class="visual-index">02 / 03</span><span class="round-icon" aria-hidden="true">◉</span></div>
+            <div class="program-info"><p class="program-label">MUAY THAI · TURMA GERAL</p><h3>Muay Thai<br /><em>Geral</em></h3><p>Aprenda os fundamentos da arte das oito armas em uma turma que recebe diferentes níveis.</p><a class="card-link" href="#modalidade-muay" data-select-program="muay">Explorar a turma <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="program-card program-bjj" data-program="bjj">
+            <div class="program-visual visual-bjj"><img src="assets/jiu-jitsu-team.png" alt="Equipe de Jiu-Jitsu reunida no tatame" loading="lazy" /><span class="visual-index">03 / 03</span><span class="round-icon" aria-hidden="true">◈</span></div>
+            <div class="program-info"><p class="program-label">JIU-JITSU BRASILEIRO</p><h3>Jiu-Jitsu<br /><em>BJJ</em></h3><p>Estratégia, técnica e evolução contínua em uma comunidade construída no tatame.</p><a class="card-link" href="#modalidade-bjj" data-select-program="bjj">Explorar a turma <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="modality-details" aria-label="Detalhes das modalidades">
+        <article class="modality-panel detail-feminino" id="modalidade-feminino" data-modality-panel="feminino">
+          <div class="detail-image"><img src="assets/muay-thai-feminino.png" alt="Alunas treinam juntas na turma feminina" loading="lazy" /><span class="image-stamp">TURMA<br />FEMININA</span></div>
+          <div class="detail-copy"><p class="section-kicker">01 · MUAY THAI FEMININO</p><h2>Mais confiança<br />a cada <em>round.</em></h2><p>Uma turma feita para mulheres que querem aprender Muay Thai em um ambiente acolhedor. Técnica, preparação física e evolução em grupo, sem exigir experiência prévia.</p>
+            <div class="benefit-row"><span>01</span><div><strong>Comece do zero</strong><small>Fundamentos explicados com atenção à sua evolução.</small></div></div><div class="benefit-row"><span>02</span><div><strong>Treine em comunidade</strong><small>Uma turma exclusiva que cresce e aprende junta.</small></div></div><div class="benefit-row"><span>03</span><div><strong>Ganhe confiança</strong><small>Condicionamento e técnica construídos a cada treino.</small></div></div>
+            <a class="button button-red" href="#agenda" data-set-modality="feminino">Ver horários da turma <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="modality-panel detail-muay" id="modalidade-muay" data-modality-panel="muay">
+          <div class="detail-image"><img src="assets/fight-house-team.png" alt="Alunos da turma geral da Fight House" loading="lazy" /><span class="image-stamp">MUAY<br />THAI</span></div>
+          <div class="detail-copy"><p class="section-kicker">02 · MUAY THAI GERAL</p><h2>Treino intenso.<br /><em>Evolução real.</em></h2><p>Da base aos treinos avançados, desenvolva combinações, defesa e preparo físico com uma turma diversa e uma equipe presente.</p>
+            <div class="benefit-row"><span>01</span><div><strong>Construa sua base</strong><small>Aprenda postura, deslocamento e golpes essenciais.</small></div></div><div class="benefit-row"><span>02</span><div><strong>Avance com método</strong><small>Exercícios adaptados à sua experiência e objetivo.</small></div></div><div class="benefit-row"><span>03</span><div><strong>Faça parte do time</strong><small>Respeito e consistência dentro e fora do treino.</small></div></div>
+            <a class="button button-red" href="#agenda" data-set-modality="muay">Ver horários da turma <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="modality-panel detail-bjj" id="modalidade-bjj" data-modality-panel="bjj">
+          <div class="detail-image"><img src="assets/jiu-jitsu-team.png" alt="Equipe de Jiu-Jitsu reunida no tatame" loading="lazy" /><span class="image-stamp">JIU<br />JITSU</span></div>
+          <div class="detail-copy"><p class="section-kicker">03 · JIU-JITSU BRASILEIRO</p><h2>Pense o jogo.<br /><em>Construa seu caminho.</em></h2><p>Aprenda a arte suave com atenção aos fundamentos, ao raciocínio técnico e ao respeito que fazem parte do Jiu-Jitsu.</p>
+            <div class="benefit-row"><span>01</span><div><strong>Técnica em primeiro lugar</strong><small>Entenda posições e movimentos passo a passo.</small></div></div><div class="benefit-row"><span>02</span><div><strong>Aprenda em qualquer nível</strong><small>Turmas com espaço para começar e continuar evoluindo.</small></div></div><div class="benefit-row"><span>03</span><div><strong>Evolua no tatame</strong><small>Consistência, parceria e aprendizado compartilhado.</small></div></div>
+            <a class="button button-red" href="#agenda" data-set-modality="bjj">Ver horários da turma <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </section>
+
+      <section class="quote-strip section-wrap" aria-labelledby="quotes-title">
+        <div class="quote-heading"><p class="section-kicker">VOZES DA ACADEMIA</p><h2 id="quotes-title">Cada caminho<br /><em>tem sua história.</em></h2></div>
+        <div class="quote-grid"><article class="quote-card"><span class="quote-mark" aria-hidden="true">“</span><p class="program-label">MUAY THAI FEMININO · EXEMPLO</p><blockquote>“Aqui entra a história de uma aluna da turma feminina e o que a trouxe para o tatame.”</blockquote><p class="quote-caption">Substituir por relato real e autorizado.</p></article><article class="quote-card"><span class="quote-mark" aria-hidden="true">“</span><p class="program-label">MUAY THAI GERAL · EXEMPLO</p><blockquote>“Aqui entra a experiência de um aluno da turma geral, do primeiro treino à rotina.”</blockquote><p class="quote-caption">Substituir por relato real e autorizado.</p></article><article class="quote-card"><span class="quote-mark" aria-hidden="true">“</span><p class="program-label">JIU-JITSU · EXEMPLO</p><blockquote>“Aqui entra o que uma pessoa descobriu ao começar a aprender Jiu-Jitsu.”</blockquote><p class="quote-caption">Substituir por relato real e autorizado.</p></article></div>
+      </section>
+
+      <section class="schedule-section" id="agenda" aria-labelledby="schedule-title">
+        <div class="section-wrap schedule-wrap">
+          <div class="section-heading schedule-heading"><div><p class="section-kicker">ESCOLHA SEU PRÓXIMO TREINO</p><h2 id="schedule-title">A agenda<br /><em>é sua.</em></h2></div><div><p class="demo-note"><span class="status-dot"></span> Grade e vagas demonstrativas</p><p>Selecione primeiro uma modalidade. A disponibilidade real deve ser conectada à agenda da academia.</p></div></div>
+          <div class="schedule-toolbar">
+            <label class="filter-field modality-filter"><span>Modalidade</span><select id="modality-filter"><option value="">Escolha uma modalidade</option><option value="feminino">Muay Thai Feminino</option><option value="muay">Muay Thai Geral</option><option value="bjj">Jiu-Jitsu · BJJ</option></select></label>
+            <label class="filter-field"><span>Nível</span><select id="level-filter"><option value="all">Todos os níveis</option><option value="Iniciante">Iniciante</option><option value="Intermediário">Intermediário</option><option value="Avançado">Avançado</option></select></label>
+            <label class="filter-field"><span>Período</span><select id="time-filter"><option value="all">Qualquer horário</option><option value="Manhã">Manhã</option><option value="Tarde">Tarde</option><option value="Noite">Noite</option></select></label>
+            <label class="filter-field"><span>Coach</span><select id="coach-filter"><option value="all">Todos os coaches</option></select></label>
+          </div>
+          <div class="calendar-controls">
+            <div class="date-controls"><button class="icon-button" id="previous-period" type="button" aria-label="Período anterior">←</button><label class="date-picker-label"><span class="sr-only">Data de referência</span><input id="date-picker" type="date" /></label><button class="icon-button" id="next-period" type="button" aria-label="Próximo período">→</button><button class="today-button" type="button" id="today-button">Hoje</button></div>
+            <div class="view-switch" role="group" aria-label="Visualização do calendário"><button type="button" data-view="day" aria-pressed="false">Dia</button><button type="button" data-view="week" aria-pressed="true">Semana</button><button type="button" data-view="month" aria-pressed="false">Mês</button></div>
+          </div>
+          <div class="period-label" id="period-label" aria-live="polite"></div>
+          <div class="calendar-grid" id="calendar-grid" aria-live="polite"></div>
+          <div class="schedule-footnote"><span>i</span><p>Os horários e as vagas desta demonstração são exemplos de interface. Confirme a grade atual com a recepção da Fight House.</p><button type="button" id="reset-filters">Limpar filtros</button></div>
+        </div>
+      </section>
+
+      <section class="team-section section-wrap" id="equipe" aria-labelledby="team-title">
+        <div class="team-photo"><img src="assets/fight-house-team.png" alt="Comunidade de alunos da Niterói Fight House" loading="lazy" /><span class="team-photo-caption">UMA EQUIPE. MUITAS HISTÓRIAS.</span></div>
+        <div class="team-copy"><p class="section-kicker">APRENDIZADO COM ACOMPANHAMENTO</p><h2 id="team-title">Gente que<br />treina com <em>você.</em></h2><p>Na Fight House, o treino é feito em equipe. Conheça quem acompanha sua evolução em cada modalidade.</p>
+          <div class="coach-list"><article><span class="coach-code">MT</span><div><h3>Coach · Muay Thai Feminino</h3><p>Acompanhamento de fundamentos e progressão da turma feminina.</p><small>Nome e credenciais oficiais a confirmar.</small></div></article><article><span class="coach-code">MT</span><div><h3>Coach · Muay Thai Geral</h3><p>Orientação técnica para diferentes níveis de experiência.</p><small>Nome e credenciais oficiais a confirmar.</small></div></article><article><span class="coach-code coach-code-cool">BJJ</span><div><h3>Coach · Jiu-Jitsu</h3><p>Aprendizado técnico com atenção às posições e à evolução no tatame.</p><small>Nome, graduação e linhagem a confirmar.</small></div></article></div>
+          <a class="underlined-link" href="#agenda">Encontre uma aula para conhecer <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="plans-section" id="planos" aria-labelledby="plans-title">
+        <div class="section-wrap"><div class="section-heading plans-heading"><div><p class="section-kicker">SEU TREINO, SUA ROTINA</p><h2 id="plans-title">Escolha como<br /><em>começar.</em></h2></div><p>Valores, frequência e condições devem ser confirmados diretamente com a academia. Estes formatos são uma estrutura demonstrativa.</p></div>
+          <div class="plans-grid"><article class="plan-card"><p class="plan-number">01</p><p class="program-label">PARA CONHECER</p><h3>Aula experimental</h3><p>Venha entender a dinâmica da turma antes de escolher seu plano.</p><a href="#agenda" class="underlined-link" data-booking-link>Agendar uma aula <span aria-hidden="true">↗</span></a><small>Disponibilidade e condições a confirmar.</small></article><article class="plan-card plan-card-featured"><p class="plan-number">02</p><p class="program-label">PARA CRIAR RITMO</p><h3>Plano por frequência</h3><p>Uma opção mensal alinhada à sua modalidade e aos dias que você pode treinar.</p><a href="#agenda" class="underlined-link" data-booking-link>Consultar valores <span aria-hidden="true">↗</span></a><small>Mensalidade e regras a confirmar.</small></article><article class="plan-card"><p class="plan-number">03</p><p class="program-label">PARA TREINAR MAIS</p><h3>Plano combinado</h3><p>Consulte a possibilidade de unir modalidades e ampliar sua rotina de treino.</p><a href="#agenda" class="underlined-link" data-booking-link>Falar com a equipe <span aria-hidden="true">↗</span></a><small>Modalidades incluídas a confirmar.</small></article></div>
+        </div>
+      </section>
+
+      <section class="final-cta section-wrap"><div><p class="section-kicker">O PRIMEIRO PASSO É SEU</p><h2>Tem uma turma<br />esperando por <em>você.</em></h2></div><a class="button button-light" href="#agenda" data-booking-link>Escolher meu treino <span aria-hidden="true">↗</span></a></section>
+    </main>
+
+    <footer class="site-footer"><a class="brand" href="#inicio" aria-label="Niterói Fight House, voltar ao início"><span class="brand-mark" aria-hidden="true"><span>NFH</span><b>FIGHT HOUSE</b></span><span class="brand-name">NITERÓI<br /><strong>FIGHT HOUSE</strong></span></a><p>Artes marciais. Comunidade. Evolução.<br /><span>Niterói, Rio de Janeiro · Desde 2016</span></p><a href="#agenda" class="footer-link">Agende sua aula <span aria-hidden="true">↗</span></a></footer>
+
+    <dialog class="booking-dialog" id="booking-dialog" aria-labelledby="booking-title">
+      <div class="dialog-top"><span class="dialog-kicker">NITERÓI FIGHT HOUSE · AULA EXPERIMENTAL</span><button type="button" class="icon-button close-dialog" aria-label="Fechar">×</button></div>
+      <div id="booking-content"></div>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
